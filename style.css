@@ -1,0 +1,163 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  margin: 0px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 55px;
+  justify-content: center;
+}
+
+.nav-item {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  background-color: #007765;
+  height: 84px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav {
+  float: right;
+  margin: 29px 0px;
+}
+
+.logo {
+  float: left;
+  margin: 20px 0px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+  top: 160px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  color: #007765;
+  text-align: center;
+  margin: 0px;
+}
+
+.section1 {
+  background: url(img/image.png) center no-repeat; /*Установит фон элемента*/
+  background-size: cover; /*Масштабирует фоновое изображение, согласно заданным размерам*/
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.gray_section {
+  background-color: #eeeeee;
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+.text_section_2 {
+  color: rgb(43, 40, 40);
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.section3 {
+  background-image: url(img/image2.png);
+  background-size: cover;
+  padding-top: 128px;
+  padding-bottom: 127px;
+}
+
+.text_section_3 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  padding: 0px 150px;
+}
+
+.white_section {
+  background-color: #fff;
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+.circle {
+  float: left;
+  margin-left: 55px;
+  margin-right: 48px;
+}
+
+/* .workers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+} */
+
+.workers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.member_name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+
+.member_job {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.member_caption {
+  text-align: center;
+}
+
+.team_member img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dark_grey_section {
+    width: 100%;
+    background: #333333;
+}
+
+.text_footer {
+    padding:  48px 339px 64px 340px;
+}
+
+footer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+}
