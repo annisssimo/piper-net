@@ -106,16 +106,11 @@ h2 {
   margin-right: 48px;
 }
 
-/* .workers {
+.workers {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-} */
-
-.workers {
-  display: flex;
-  flex-wrap: wrap;
+  grid-gap: 30px; /* Отступ между элементами */
+  justify-content: center; /* Выравнивание по центру */
 }
 
 .member_name {
@@ -138,9 +133,12 @@ h2 {
   text-align: center;
 }
 
+.team_member {
+  text-align: center; /* Центрируем текст и изображение внутри блока */
+}
+
 .team_member img {
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .dark_grey_section {
